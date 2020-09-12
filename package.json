@@ -45,3 +45,9 @@
     "zip-a-folder": "0.0.12"
   }
 }
+
+"scripts": {
+  "start": "cross-env PORT=10888 react-scripts start",
+  "build: "react-scripts build",
+  "now-build": "react-scripts build" // <--- абслютно тоже самое, что и в build
+}
