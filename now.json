@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "<economic_calendar>",
+  "name": "economic_calendar",
   "builds": [
     {
       "src": "package.json",
