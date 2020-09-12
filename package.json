@@ -47,7 +47,6 @@
 }
 
 "scripts": {
-  "start": "cross-env PORT=10888 react-scripts start",
-  "build: "react-scripts build",
-  "now-build": "react-scripts build" // <--- абслютно тоже самое, что и в build
-}
+    "deploy": "vk-miniapps-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
+  },
